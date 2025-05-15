@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        
+        <link href="../Styles/style2.css" rel="stylesheet">
+        <link href="../Styles/style2@media.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+       
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    
+    <body>
+    <div class="wrapper">
+        <main>
+            <header class="head1">
+                 <div class="head">
+                    <div class="name">
+                        <a class="name1" href="../index.html">Sejal Pradhan </a>
+                    </div>
+                    
+                        <nav class="cont">
+                            <li ><a class="cont1" href="../index.html">Home</a></li>
+                            <li ><a class="cont1" href="#">Projects</a></li>
+                            <li ><a class="cont1" href="#">Portfolio</a></li>
+                            <li ><a class="cont1" href="#">Contact</a></li>
+                        </nav> 
+
+                            <div class="cont2">
+                                <button class="but1" action>
+                                    Hire Me
+                                </button>
+                            </div>
+                            <div>
+                               <img class="flag" src="../Picture/Flag_of_Nepal.gif" alt="animated-nepal-flag-image-0007" /></a>
+                            </div>
+                </div>
+            </header>
+<!-- Body Main Part Start Here -->
+ <!-- This is the first Get in Touch Picture -->
+                        <div class="content1">
+                            <div class="pic1">
+                                <img src="../Picture/get-on-touch.png" alt="get-on-touch">
+                                
+                            </div>
+                            <div class="social">
+                                <a href="https://www.facebook.com/profile.php?id=100080621411424" target="_blank">
+                                        <img class="socialv" src="../Picture/facebook-2.png" alt="facebook icon"> </a>
+                                        <a href="https://www.instagram.com/sejal.pradhan22/" target="_blank">
+                                        <img class="socialv" src="../Picture/insta-2.png" alt="instagram icon"> </a>
+                                        <a href="https://www.linkedin.com/in/sejal-pradhan-29076a281" target="_blank">
+                                        <img class="socialv" src="../Picture/link-2.png" alt="linkedin icon"> </a>
+                                        <a href="https://github.com/ProxyGuy22" target="_blank">
+                                        <img class="socialv" src="../Picture/github-2.png" alt="github icon"> </a>
+                                        <a href="https://proxyguy22.github.io/proxyweb/" target="_blank">
+                                        <img class="socialv" src="../Picture/www-2.png" alt="Website icon"> </a>
+                                 </div>
+                        </div>
+
+                        <div class="details">
+                            <div class="">
+                                <iframe class="nav" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8571.693290616031!2d55.176377600000016!3d25.0986201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sae!4v1747308880561!5m2!1sen!2sae" 
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+
+
+                            <div class="contact">
+                            <p style="font-family: 'Times New Roman', Times, serif;text-align: center;
+                            font-weight:900;font-size:20px;color:#077A7D ;">Meet Me</p> 
+                            <p class="text">Contact No (UAE): +971-56-181-9269 <br/>
+                            Contact No (Nepal): +977-9849929314 <br/>
+                            Address: Dubai Internet City, Dubai, UAE <br/>
+                            E-mail Add: sejal.pradhan80@gmail.com <br/>
+                            </p>    
+                            </div>
+
+
+                            <div class="form">
+                            <p style="font-family: 'Times New Roman', Times, serif;text-align: center;
+                            font-weight:900;font-size:20px;color:#077A7D ;">Send Message</p>
+                            <form id="contact-form" action="https://formspree.io/f/xdkgybdl" method="POST">
+                            <label>Full Name</label>
+                            <input type="text" name="text" placeholder="Full Name" required>
+                            <label> Your email: <br/>
+                            <input type="email" name="email" placeholder="E-mail" required>
+                            </label>
+                            <label>Phone Number:</label>
+                            <input type="tel" name="phone" placeholder="+977 98XXXXXXXX" required>
+
+                            <label>Your message:<br/>
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                            </label>
+                                <!-- your other form fields go here -->
+                            <button class="button1" type="submit"> <span>Submit</span></button>
+                            </form>
+                            <p id="form-message" style="display:none; color: green; text-align: center;">Message sent successfully!</p>
+
+                            <script>
+                            const form = document.getElementById('contact-form');
+                            const msg = document.getElementById('form-message');
+
+                            form.addEventListener('submit', async function (e) {
+                                e.preventDefault();
+                                const data = new FormData(form);
+                                const response = await fetch(form.action, {
+                                method: form.method,
+                                body: data,
+                                headers: {
+                                    'Accept': 'application/json'
+                                }
+                                });
+
+                                if (response.ok) {
+                                form.reset();
+                                msg.style.display = 'block';
+                                msg.textContent = "Message sent successfully!";
+                                } else {
+                                msg.style.display = 'block';
+                                msg.style.color = 'red';
+                                msg.textContent = "Something went wrong. Please try again.";
+                                }
+                            });
+                            </script>
+                            </div>
+                            <div class="calendar">
+                                <div>
+                                <iframe src="https://www.hamropatro.com/widgets/calender-medium.php" frameborder="0" scrolling="no" marginwidth="0px" marginheight="0px" style="overflow:hidden; width:300px; height:385px;align-self: center;" allowtransparency="true"></iframe>
+                                </div>
+                                </div>
+                        </div>
+
+
+        </main>
+
+            <div class="foot">
+            <footer class="footer">
+                <p class="ftext">&#9755 © Proxycore Network &#9830 This Website is designed by Proxy Guy. &#9754 </p>
+            </footer>
+            </div>
+
+        
+
+         
+            
+        </div>
+        </body>
+        
+</html>

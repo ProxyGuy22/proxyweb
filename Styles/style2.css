@@ -1,0 +1,289 @@
+@media only screen and (min-width:1440px) {
+    
+}a
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+.wrapper{
+    min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Heading Codes start */
+
+.head {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color:#F3EEEA ;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 20px;
+    float: left;
+    flex-wrap: wrap;
+}
+
+.name1 {
+    font-size: 4rem;
+    text-decoration: none;
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #077A7D;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.5ms;
+    transition-timing-function: linear;
+}
+
+.cont {
+   display:inline-flex;
+   flex:1;
+   gap:80px;
+   justify-content: center;
+   align-items: center;
+   margin-right:60px;
+}
+
+.cont > li {
+    list-style-type:none;
+}
+.cont1 {
+    color: #077A7D;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cont1:hover {
+    font-size: 2rem;
+    text-decoration: underline;
+    color: red;
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 8px;
+    transition-property:all;
+    transition-duration: 0.2s;
+    transition-delay: 0.1ms;
+    transition-timing-function:ease-in-out;
+    transition-behavior:initial;
+}
+
+.cont2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.flag {
+    height: 100%;
+}
+
+
+
+/* Heading Code Ends */
+
+/* Body Code Start */
+
+.content1 {
+    background-color: rgb(253, 253, 253);
+
+}
+
+.pic1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pic1 > img {
+    width: 50%;
+    margin: 0px;
+}
+
+.social {
+    height: 60px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.socialv {
+    height: 40px;
+    width: 40px;
+}
+
+.socialv:hover {
+    height: 50px;
+    width: 50px;
+    transition: 0.2s all;
+    transform: scale3d(1.3);
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #ffe9d6;
+    /* height: 48vh; */
+    gap: 10px;
+}
+
+.nav {
+    display:flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 2;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+label {
+    text-align: center;
+}
+
+input, textarea {
+align-self: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  max-width: 200px;
+}
+
+.button1 {
+    align-self: center;
+    height: 50px;
+    width: 120px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    border-radius: 15px;
+    border: red solid 2px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    height: 50px;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    background-color:rgb(24, 201, 118);
+    cursor: pointer;
+    transition-property:all;
+    transition-duration: 0.2s;
+    transition-delay: 0.1ms;
+    transition-timing-function:ease-in-out;
+}
+
+.calendar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+
+/* Body Code ends here */
+
+/* Button Code start */
+.but1 {
+    margin-right: 80px;
+    height: 50px;
+    width: 120px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    border-radius: 15px;
+    border: red solid 2px;
+    cursor: pointer;
+}
+
+.but1:hover {
+    height: 50px;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    background-color:rgb(24, 201, 118);
+    cursor: pointer;
+    transition-property:all;
+    transition-duration: 0.2s;
+    transition-delay: 0.1ms;
+    transition-timing-function:ease-in-out;
+}
+
+
+/* Footer Code start*/
+
+.foot {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    background-color:#F3EEEA ;
+    height: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ftext {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #077A7D;
+}
+
+/* Footer Code */
